@@ -1,0 +1,17 @@
+{
+    "1": {
+        "password": "$2a$10$pEbkRM/FoQ4xDs4Uu6338uPxy.dvu5j4knhtMnSKwfKJ/SKMmCqrC",
+        "token": "2d770f88-312c-4bea-85b4-30849d543f44",
+        "data": {}
+    },
+    "2": {
+        "password": "$2a$10$TgOlaW5ywN3P7KYknWyYUuNu8BIT6lmgJtmEMLKXPnVtGD6xdGZpK",
+        "token": "9c2db100-51fa-4949-a051-3adb8a88bdaa",
+        "data": "{\"data\": \"123\"}"
+    },
+    "3": {
+        "password": "$2a$10$/LwpLzKy32IaAal0nlTn8O/3QLR0ySnMbtKhAZOxIzVKa6OUCPl0.",
+        "token": "7d5fcbe7-4424-4f69-a2ed-070adb3030d6",
+        "data": "\"esdazgvdfhnbdgdsxgxdsrfhbcftrjmnf\""
+    }
+}
