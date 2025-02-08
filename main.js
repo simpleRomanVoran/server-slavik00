@@ -11,22 +11,13 @@ const app = express();
 const PORT = 3000;
 const USERS_FILE = path.join(__dirname, 'users.json');
 const LOGS_FILE = path.join(__dirname, 'logs.txt');
-const ALLOWED_ORIGINS = [
-    'https://banana.slavik00.ru',
-    'https://todo.slavik00.ru',
-    'https://api.slavik00.ru'
-];
+// const ALLOWED_ORIGINS = [
+//     'https://banana.slavik00.ru',
+//     'https://todo.slavik00.ru',
+//     'https://api.slavik00.ru'
+// ];
 
-app.use(cors({
-    origin: (origin, callback) => {
-        if (!origin || ALLOWED_ORIGINS.includes(origin)) {
-            callback(null, origin);  // Возвращаем тот же домен
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    credentials: true
-}));
+app.use(cors({ origin: /\.slavik00\.ru$/ }));
 
 app.use(express.json());
 // app.use(cors({ origin: ALLOWED_ORIGIN }));
